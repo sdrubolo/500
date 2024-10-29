@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const bunyan = require('bunyan');
-const logger = bunyan.createLogger({ name: 'ncco server' });
+const logger = bunyan.createLogger({ name: 'server' });
 const axios = require('axios');
 
 
